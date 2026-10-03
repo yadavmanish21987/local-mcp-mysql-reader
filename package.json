@@ -1,0 +1,25 @@
+{
+  "name": "local-mcp-mysql-reader",
+  "version": "1.0.0",
+  "description": "An MCP server that allows AI to run SELECT queries on local MySQL databases.",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "local-mcp-mysql-reader": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": ["mcp", "mysql", "reader", "ai", "local"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@types/mysql": "^2.15.27",
+    "mysql2": "^3.23.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "typescript": "^7.0.2"
+  }
+}
